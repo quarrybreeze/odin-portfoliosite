@@ -3,135 +3,190 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description" content="Portfolio of Terrence Clayton">
+  <title>Terrence Clayton | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class = "about-me-container">
-    <div class = "about-me-section">
-      <div class = "photo">
-        <img src="/Assets/headshot.jpeg" alt="Professional headshot">
-      </div>
-      <div class = "intro">
-        <h2>About me</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum molestias corporis, quos saepe rem culpa eius praesentium, id tempora cum, hic laboriosam exercitationem quae! Voluptatibus accusantium neque ad sit tempora?</p>
-        <div class = "socials">
-          <!-- github, linked in, X -->
-          <img src="" alt="GH" width="30" height="30">
-          <img src="" alt="LI" width="30" height="30">
-          <img src="" alt="X" width="30" height="30">
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="projects-section-container">
-    <div class="projects-section">
-      <h3>My work</h3>
-      <div class = "project-container">
-        <div class = "project">
-          <img src="" alt="Project 1 Screenshot" width="100" height="100">
-          <div class = "project-middle">
-            <h6>Project 1 Name</h6>
-            <!-- github repo, live preview -->
-            <div class = "project-icons">
-              <img src="" alt="GH" width="30" height="30">
-              <img src="" alt="LP" width="30" height="30"> 
-            </div>
-          </div>
-          <p>Short description of the project. just a couple sentences will do.</p>
-        </div>
-        <div class = "project">
-          <img src="" alt="Project 1 Screenshot" width="100" height="100">
-          <div class = "project-middle">
-            <h6>Project 1 Name</h6>
-            <!-- github repo, live preview -->
-            <div class = "project-icons">
-              <img src="" alt="GH" width="30" height="30">
-              <img src="" alt="LP" width="30" height="30"> 
-            </div>
-          </div>
-          <p>Short description of the project. just a couple sentences will do.</p>
-        </div>
-        <div class = "project">
-          <img src="" alt="Project 1 Screenshot" width="100" height="100">
-          <div class = "project-middle">
-            <h6>Project 1 Name</h6>
-            <!-- github repo, live preview -->
-            <div class = "project-icons">
-              <img src="" alt="GH" width="30" height="30">
-              <img src="" alt="LP" width="30" height="30"> 
-            </div>
-          </div>
-          <p>Short description of the project. just a couple sentences will do.</p>
-        </div>
-        <div class = "project">
-          <img src="" alt="Project 1 Screenshot" width="100" height="100">
-          <div class = "project-middle">
-            <h6>Project 1 Name</h6>
-            <!-- github repo, live preview -->
-            <div class = "project-icons">
-              <img src="" alt="GH" width="30" height="30">
-              <img src="" alt="LP" width="30" height="30"> 
-            </div>
-          </div>
-          <p>Short description of the project. just a couple sentences will do.</p>
-        </div>
-        <div class = "project">
-          <img src="" alt="Project 1 Screenshot" width="100" height="100">
-          <div class = "project-middle">
-            <h6>Project 1 Name</h6>
-            <!-- github repo, live preview -->
-            <div class = "project-icons">
-              <img src="" alt="GH" width="30" height="30">
-              <img src="" alt="LP" width="30" height="30"> 
-            </div>
-          </div>
-          <p>Short description of the project. just a couple sentences will do.</p>
-        </div>
-        <div class = "project">
-          <img src="" alt="Project 1 Screenshot" width="100" height="100">
-          <div class = "project-middle">
-            <h6>Project 1 Name</h6>
-            <!-- github repo, live preview -->
-            <div class = "project-icons">
-              <img src="" alt="GH" width="30" height="30">
-              <img src="" alt="LP" width="30" height="30"> 
-            </div>
-          </div>
-          <p>Short description of the project. just a couple sentences will do.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="contact-me-section-container">
-    <div class="info">
-      <div class="contact-me-section">
-        <h3>Contact Me</h3>
-        <p>Please get in touch if you think our work could be mutually beneficial!</p>
-        <p class ="address">
-          1234 Random Road<br>
-          Random Town, California 12345
-        </p>
-        <div class="contact-detail">
-          <img src="" alt="Phone" width="30" height="30">
-          <p>555-555-5555</p>
-        </div>
-        <div class="contact-detail">
-          <img src="" alt="LP" width="30" height="30">
-          <p>ashleywilliams.is.not.real@gmail.com</p>
-        </div>
-        <div class = "socials">
-          <!-- github, linked in, X -->
-          <img src="" alt="GH" width="30" height="30">
-          <img src="" alt="LI" width="30" height="30">
-          <img src="" alt="X" width="30" height="30">
-        </div>
-      </div>
-    </div>
-    <div class="photo">
-      <img src="" alt="Footer Photo" width="500" height="400">
-    </div>
-  </div>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Terrence Clayton</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
   
+  <main>
+    <section id="about" class="about-me-container">
+      <div class="about-me-section">
+        <div class="photo">
+          <img src="/Assets/headshot.jpeg" alt="Professional headshot">
+        </div>
+        <div class="intro">
+          <h2>About me</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum molestias corporis, quos saepe rem culpa eius praesentium, id tempora cum, hic laboriosam exercitationem quae! Voluptatibus accusantium neque ad sit tempora?</p>
+          <div class="socials">
+            <a href="https://github.com/quarrybreeze" target="_blank" rel="noopener noreferrer">
+              <img src="/Assets/github-icon.svg" alt="GitHub" width="30" height="30">
+            </a>
+            <a href="https://www.linkedin.com/in/terrenceclayton/" target="_blank" rel="noopener noreferrer">
+              <img src="/Assets/linkedin-icon.svg" alt="LinkedIn" width="30" height="30">
+            </a>
+            <a href="https://x.com/RetryTerry" target="_blank" rel="noopener noreferrer">
+              <img src="/Assets/twitter-icon.svg" alt="X (Twitter)" width="30" height="30">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="projects" class="projects-section-container">
+      <div class="projects-section">
+        <h3>My work</h3>
+        <div class="project-container">
+          <div class="project">
+            <img src="" alt="Project 1 Screenshot" width="100" height="100">
+            <div class="project-middle">
+              <h6>Project 1 Name</h6>
+              <div class="project-icons">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="/Assets/github-icon.svg" alt="GitHub Repository" width="30" height="30">
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="/Assets/external-link.svg" alt="Live Preview" width="30" height="30">
+                </a>
+              </div>
+            </div>
+            <p>Short description of the project. just a couple sentences will do.</p>
+          </div>
+          
+          <div class="project">
+            <img src="" alt="Project 2 Screenshot" width="100" height="100">
+            <div class="project-middle">
+              <h6>Project 2 Name</h6>
+              <div class="project-icons">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="/Assets/github-icon.svg" alt="GitHub Repository" width="30" height="30">
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="/Assets/external-link.svg" alt="Live Preview" width="30" height="30">
+                </a>
+              </div>
+            </div>
+            <p>Short description of the project. just a couple sentences will do.</p>
+          </div>
+          
+          <div class="project">
+            <img src="" alt="Project 3 Screenshot" width="100" height="100">
+            <div class="project-middle">
+              <h6>Project 3 Name</h6>
+              <div class="project-icons">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="/Assets/github-icon.svg" alt="GitHub Repository" width="30" height="30">
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="/Assets/external-link.svg" alt="Live Preview" width="30" height="30">
+                </a>
+              </div>
+            </div>
+            <p>Short description of the project. just a couple sentences will do.</p>
+          </div>
+          
+          <div class="project">
+            <img src="" alt="Project 4 Screenshot" width="100" height="100">
+            <div class="project-middle">
+              <h6>Project 4 Name</h6>
+              <div class="project-icons">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="/Assets/github-icon.svg" alt="GitHub Repository" width="30" height="30">
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="/Assets/external-link.svg" alt="Live Preview" width="30" height="30">
+                </a>
+              </div>
+            </div>
+            <p>Short description of the project. just a couple sentences will do.</p>
+          </div>
+          
+          <div class="project">
+            <img src="" alt="Project 5 Screenshot" width="100" height="100">
+            <div class="project-middle">
+              <h6>Project 5 Name</h6>
+              <div class="project-icons">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="/Assets/github-icon.svg" alt="GitHub Repository" width="30" height="30">
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="/Assets/external-link.svg" alt="Live Preview" width="30" height="30">
+                </a>
+              </div>
+            </div>
+            <p>Short description of the project. just a couple sentences will do.</p>
+          </div>
+          
+          <div class="project">
+            <img src="" alt="Project 6 Screenshot" width="100" height="100">
+            <div class="project-middle">
+              <h6>Project 6 Name</h6>
+              <div class="project-icons">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="/Assets/github-icon.svg" alt="GitHub Repository" width="30" height="30">
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="/Assets/external-link.svg" alt="Live Preview" width="30" height="30">
+                </a>
+              </div>
+            </div>
+            <p>Short description of the project. just a couple sentences will do.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="contact-me-section-container">
+      <div class="info">
+        <div class="contact-me-section">
+          <h3>Contact Me</h3>
+          <p>Please get in touch if you think our work could be mutually beneficial!</p>
+          <p class="address">
+            1234 Random Road<br>
+            Random Town, California 12345
+          </p>
+          <div class="contact-detail">
+            <img src="/Assets/phone-icon.svg" alt="Phone" width="30" height="30">
+            <p>555-555-5555</p>
+          </div>
+          <div class="contact-detail">
+            <img src="/Assets/email-icon.svg" alt="Email" width="30" height="30">
+            <p>ashleywilliams.is.not.real@gmail.com</p>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/quarrybreeze" target="_blank" rel="noopener noreferrer">
+              <img src="/Assets/github-icon.svg" alt="GitHub" width="30" height="30">
+            </a>
+            <a href="https://www.linkedin.com/in/terrenceclayton/" target="_blank" rel="noopener noreferrer">
+              <img src="/Assets/linkedin-icon.svg" alt="LinkedIn" width="30" height="30">
+            </a>
+            <a href="https://x.com/RetryTerry" target="_blank" rel="noopener noreferrer">
+              <img src="/Assets/twitter-icon.svg" alt="X (Twitter)" width="30" height="30">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="" alt="Footer Photo" width="500" height="400">
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Terrence Clayton. All rights reserved.</p>
+  </footer>
 </body>
 </html>
